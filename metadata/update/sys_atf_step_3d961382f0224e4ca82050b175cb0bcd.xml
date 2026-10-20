@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Validate that an email was generated matching query:
+Subject = Initiative submitted: ATF Test Initiative
+and Recipients contains initiative_test@example.com</description>
+        <display_name>Validate Outbound Email</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>6</order>
+        <step_config display_value="Validate Outbound Email">32911152c3833300eaac11fe81d3ae82</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>daniel.draes</sys_created_by>
+        <sys_created_on>2025-09-25 13:30:12</sys_created_on>
+        <sys_id>3d961382f0224e4ca82050b175cb0bcd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Validate Outbound Email</sys_name>
+        <sys_package display_value="Daniels RO Demo" source="x_snc_daniels_ro_0">56186ecb87003e9099507738dabb3565</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Daniels RO Demo">56186ecb87003e9099507738dabb3565</sys_scope>
+        <sys_update_name>sys_atf_step_3d961382f0224e4ca82050b175cb0bcd</sys_update_name>
+        <sys_updated_by>daniel.draes</sys_updated_by>
+        <sys_updated_on>2025-09-25 13:30:30</sys_updated_on>
+        <table/>
+        <test display_value="Create, validate, update, email check, and delete Sustainability Initiative">c86f92713c5c4d6d971c73a51b417e1e</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=3d961382f0224e4ca82050b175cb0bcd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3d961382f0224e4ca82050b175cb0bcd</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>daniel.draes</sys_created_by>
+        <sys_created_on>2025-09-25 13:30:12</sys_created_on>
+        <sys_id>12663d13e11c4264b1caebb11312068c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>daniel.draes</sys_updated_by>
+        <sys_updated_on>2025-09-25 13:30:12</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Table">80625552c3833300eaac11fe81d3aedc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3d961382f0224e4ca82050b175cb0bcd</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>daniel.draes</sys_created_by>
+        <sys_created_on>2025-09-25 13:30:12</sys_created_on>
+        <sys_id>bdc1cef517ea49a2835a4a132f002832</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>daniel.draes</sys_updated_by>
+        <sys_updated_on>2025-09-25 13:30:12</sys_updated_on>
+        <value>subject=Initiative submitted: ATF Test Initiative^recipientsLIKEinitiative_test@example.com</value>
+        <variable display_value="conditions">7d821952c3833300eaac11fe81d3ae2e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82^id=3d961382f0224e4ca82050b175cb0bcd"/>
+</record_update>

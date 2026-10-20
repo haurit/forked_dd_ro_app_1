@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Log: Test completed: Created user initiative_test@example.com, inserted and validated Sustainability Initiative record, updated description, checked outbound email, deleted record. Outcome: Success.</description>
+        <display_name>Log</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>8</order>
+        <step_config display_value="Log">58ab71985f30220012b44adb7f46661e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>daniel.draes</sys_created_by>
+        <sys_created_on>2025-09-25 13:30:12</sys_created_on>
+        <sys_id>99901e7c28ae4597889707b1d6f395b8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Log</sys_name>
+        <sys_package display_value="Daniels RO Demo" source="x_snc_daniels_ro_0">56186ecb87003e9099507738dabb3565</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Daniels RO Demo">56186ecb87003e9099507738dabb3565</sys_scope>
+        <sys_update_name>sys_atf_step_99901e7c28ae4597889707b1d6f395b8</sys_update_name>
+        <sys_updated_by>daniel.draes</sys_updated_by>
+        <sys_updated_on>2025-09-25 13:30:30</sys_updated_on>
+        <table/>
+        <test display_value="Create, validate, update, email check, and delete Sustainability Initiative">c86f92713c5c4d6d971c73a51b417e1e</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=99901e7c28ae4597889707b1d6f395b8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>99901e7c28ae4597889707b1d6f395b8</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>daniel.draes</sys_created_by>
+        <sys_created_on>2025-09-25 13:30:12</sys_created_on>
+        <sys_id>7f77beff7fd742168b5abe8c43640c6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>daniel.draes</sys_updated_by>
+        <sys_updated_on>2025-09-25 13:30:12</sys_updated_on>
+        <value>Test completed: Created user initiative_test@example.com, inserted and validated Sustainability Initiative record, updated description, checked outbound email, deleted record. Outcome: Success.</value>
+        <variable display_value="Log">523c79985f30220012b44adb7f46663a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_58ab71985f30220012b44adb7f46661e^id=99901e7c28ae4597889707b1d6f395b8"/>
+</record_update>

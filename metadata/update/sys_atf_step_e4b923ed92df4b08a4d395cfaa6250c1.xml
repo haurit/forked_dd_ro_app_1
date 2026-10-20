@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Validate there is at least one record in 'x_snc_sustainabi_0_sustainability_initiative' matching query:
+</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>daniel.draes</sys_created_by>
+        <sys_created_on>2025-09-25 13:30:12</sys_created_on>
+        <sys_id>e4b923ed92df4b08a4d395cfaa6250c1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="Daniels RO Demo" source="x_snc_daniels_ro_0">56186ecb87003e9099507738dabb3565</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Daniels RO Demo">56186ecb87003e9099507738dabb3565</sys_scope>
+        <sys_update_name>sys_atf_step_e4b923ed92df4b08a4d395cfaa6250c1</sys_update_name>
+        <sys_updated_by>daniel.draes</sys_updated_by>
+        <sys_updated_on>2025-09-25 13:30:30</sys_updated_on>
+        <table>x_snc_sustainabi_0_sustainability_initiative</table>
+        <test display_value="Create, validate, update, email check, and delete Sustainability Initiative">c86f92713c5c4d6d971c73a51b417e1e</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=e4b923ed92df4b08a4d395cfaa6250c1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e4b923ed92df4b08a4d395cfaa6250c1</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>daniel.draes</sys_created_by>
+        <sys_created_on>2025-09-25 13:30:12</sys_created_on>
+        <sys_id>2abff60ff744437eb381a98547ddfd20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>daniel.draes</sys_updated_by>
+        <sys_updated_on>2025-09-25 13:30:12</sys_updated_on>
+        <value>records_match_query</value>
+        <variable display_value="Assert type">b86c0427531000109e02ddeeff7b1227</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e4b923ed92df4b08a4d395cfaa6250c1</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>daniel.draes</sys_created_by>
+        <sys_created_on>2025-09-25 13:30:12</sys_created_on>
+        <sys_id>869aa2a9f003438fafce8f34468698be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>daniel.draes</sys_updated_by>
+        <sys_updated_on>2025-09-25 13:30:12</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enforce security">02fb0027531000109e02ddeeff7b120b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e4b923ed92df4b08a4d395cfaa6250c1</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>daniel.draes</sys_created_by>
+        <sys_created_on>2025-09-25 13:30:12</sys_created_on>
+        <sys_id>c6b8556507c5499fb373cc66e759c52f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>daniel.draes</sys_updated_by>
+        <sys_updated_on>2025-09-25 13:30:12</sys_updated_on>
+        <value>x_snc_sustainabi_0_sustainability_initiative</value>
+        <variable display_value="Table">78b8d86b531000109e02ddeeff7b12f3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e4b923ed92df4b08a4d395cfaa6250c1</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>daniel.draes</sys_created_by>
+        <sys_created_on>2025-09-25 13:30:12</sys_created_on>
+        <sys_id>eadc50325b81417c839ce6095487e573</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>daniel.draes</sys_updated_by>
+        <sys_updated_on>2025-09-25 13:30:12</sys_updated_on>
+        <value/>
+        <variable display_value="Conditions">915990ab531000109e02ddeeff7b12f8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e4b923ed92df4b08a4d395cfaa6250c1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>e4b923ed92df4b08a4d395cfaa6250c1</id>
+        <sys_created_by>daniel.draes</sys_created_by>
+        <sys_created_on>2025-09-25 13:30:12</sys_created_on>
+        <sys_id>9a298e434eb741e89d3d301df0d9a808</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>daniel.draes</sys_updated_by>
+        <sys_updated_on>2025-09-25 13:30:12</sys_updated_on>
+        <table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table>
+        <value>sys_id={{step['dd94a45be96542b290e2349b214ee1e6'].record_id}}^status=Planned^initiative_name=ATF Test Initiative^type=Solar Panel Installation^initiative_responsible={{step['98b260e863174209a7715466a33fe47d'].user}}</value>
+    </sys_element_mapping>
+</record_update>
